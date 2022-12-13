@@ -1,0 +1,76 @@
+.todoMain{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoCard{
+    background: white;
+padding: 10px;
+width: 50%;
+width: 50%;
+}
+
+.btnsInput input{
+    padding: 7px;
+    width: 80%;
+    outline: none;
+    background: lightgray;
+    border: 2px solid gray;
+}
+
+.btnsInput button{
+    padding: 9px;
+width: 98px;
+border-radius: 1px;
+}
+
+.singleItem {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.clear{
+    background: red;
+outline: none;
+width: 197px;
+height: 40px;
+border: 2px solid red;
+cursor: pointer;
+border-radius: 8px;
+margin-left: 50%;
+transform: translate(-50%);
+}
+
+.AlertMain{
+    margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.danger{
+    margin-bottom: 20px;
+margin-top: 20px;
+background: #e66d6d;
+border-radius: 10px;
+padding: .1px;
+display: flex;
+justify-content: center;
+align-content: center;
+color: white;
+}
+
+.success{
+    margin-bottom: 20px;
+margin-top: 20px;
+background: #7c7cdb;
+padding: .1px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-content: center;
+color: white;
+}

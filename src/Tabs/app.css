@@ -1,0 +1,71 @@
+.name {
+	width: 94px;
+	padding: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.tabsData{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px;
+    width: 80%;
+}
+
+.para {
+	margin-left: 32px;
+	margin-top: 21px;
+
+}
+
+.activeCompany{
+    color: lightcoral;
+    cursor: pointer;
+    margin-left: 31px;
+    border-left: 2px solid;
+    padding: 0px 0px 0px 13px;
+}
+
+.verticalLine {
+	height: 32px;
+	width: 3px;
+	background: lightcoral;
+	margin-top: 10px;
+	/* margin-right: 19px; */
+}
+
+.all{
+    margin-right: 56px;
+}
+
+.comapnyName{
+    margin-left: 31px;
+}
+
+@media screen and (max-width:1000px){
+    .tabsData{
+        flex-direction: column;
+    }
+    .all{
+        display: flex;
+        margin-right: 0px;
+    }
+
+    .activeCompany{
+        cursor: pointer;
+        margin-left: 31px;
+        border-bottom: 2px solid;
+        border-left: 0px;
+        padding: 0px 0px 13px 0px;
+        /* margin-right: 20px; */
+    }
+    .comapnyName{
+        margin-right: 20px;
+    }
+}

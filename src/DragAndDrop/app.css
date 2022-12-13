@@ -1,0 +1,12 @@
+.draggable {
+    top: auto !important;
+    left: auto !important;
+  }
+
+  .todos__single {
+    border: 2px solid;
+  }
+
+  .todos {
+    border: 2px solid red;
+  }

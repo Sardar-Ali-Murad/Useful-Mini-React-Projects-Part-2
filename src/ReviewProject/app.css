@@ -1,0 +1,43 @@
+.reviewCard{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* text-align: center; */
+width: 50%;
+background: white;
+border-radius: 10px;
+padding: 10px;
+box-sizing: border-box;
+box-sizing: border-box;
+transform: translate(-50%);
+margin-left: 50%;
+margin-top: 40px
+}
+
+.surprise{
+    padding: 10px;
+    background-color: lightblue;
+    color: blue;
+    cursor: pointer;
+}
+
+.before,.after{
+    /* background-color: aqua; */
+    /* border: 1px solid lightseagreen; */
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 50px;
+    /* color: blue; */
+    cursor: pointer
+}
+
+.before:hover,.after:hover{
+    background-color: aqua;
+    border: 1px solid lightseagreen;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 50px;
+    color: blue;
+    cursor: pointer;
+}

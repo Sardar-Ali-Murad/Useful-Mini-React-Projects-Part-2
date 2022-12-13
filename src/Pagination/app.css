@@ -1,0 +1,62 @@
+.numbers{
+    display: flex;
+    /* background: rebeccapurple; */
+    width: 39%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+}
+
+.pre{
+    background: white;
+    border: 2px solid blue;
+    color: blue;
+    width: 103px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.next{
+    background: white;
+    border: 2px solid blue;
+    color: blue;
+    width: 103px;
+    cursor: pointer;
+}
+
+.pre:hover,.next:hover{
+    background-color: rgb(128, 128, 221);
+    color: white;
+}
+
+.Pagination{
+    display: flex;
+margin-top: 70px;
+margin-left: 70px;
+/* background: red; */
+/* width: 30%; */
+justify-content: space-around;
+}
+
+.numbers .digit{
+    /* background: lightgray; */
+height: 100%;
+width: 50px;
+border: 2px solid gray;
+color: white;
+border-radius: 10px;
+margin-right: 20px;
+/* width: 4%; */
+cursor: pointer;
+}
+
+/* .numbers button:hover{
+    background-color: white;
+    color: black;
+} */
+
+.activeBtn{
+    background-color: orange;
+    color: white;
+    /* display: none; */
+}

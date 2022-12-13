@@ -1,0 +1,39 @@
+.stripeMain{
+  background: url("./images/hero.svg");
+  height: 100vh;  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain
+}
+
+.phone{
+    display: flex;
+    display: flex;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+}
+
+.phone .image{
+    flex: 1;
+    height: 300px;
+}
+
+.phone img{
+    width: 100%;
+}
+
+.con{
+    margin-right: 30px;
+}
+
+@media screen and (max-width:700px) {
+    .phone{
+        flex-direction: column-reverse;
+    }
+    .con{
+        width: 100%;
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,27 @@
+.button-input input{
+    padding: 20px;
+    background-color: white;
+    outline: none;
+    width: 253px;
+    margin-left: 24px;
+    height: 55px;
+    border: 2px solid wheat;
+}
+
+.button-input button {
+	padding: 20px;
+	background-color: lightblue;
+	height: 55px;
+	margin-top: 4px;
+	outline: none;
+	position: absolute;
+	top: 16px;
+	border: 2px solid wheat;
+    cursor: pointer;
+}
+
+.colorGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+    /* padding: 10px; */
+}

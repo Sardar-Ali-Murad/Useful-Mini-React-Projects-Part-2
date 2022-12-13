@@ -1,0 +1,39 @@
+.calculator-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 2px; */
+    margin-top: 50px;
+}
+
+
+.col-span-4{
+    grid-column: span 4;
+}
+
+.col-span-2{
+    grid-column:
+    
+    span 2;
+}
+
+.calculator-grid >*{
+    background-color: aqua;
+color: white;
+padding: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+color: black;
+font-size: 24px;
+font-family: 'Roboto Flex', sans-serif;
+color: gray;
+border: 1.4px solid gray;
+}
+
+.result{
+    background-color: gray;
+    color: white;
+}
+
+

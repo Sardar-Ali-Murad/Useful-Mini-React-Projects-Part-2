@@ -1,0 +1,181 @@
+.books-header-main{
+    background: #7d3a3a;
+    box-shadow: 0 2px 2px aliceblue;
+    padding: 30px;
+}
+
+.main-books{
+    box-shadow: 0px 2px 2px   aliceblue;
+    background: #7d3a3a;
+    padding: 30px;
+}
+
+.main{
+    min-height: 100vh;
+    background: #7d3a3a;
+}
+
+.books-header-main img{
+    clip-path: polygon(0 1%, 75% 0%, 92% 51%, 75% 100%, 0 99%, 0% 50%);
+}
+
+.books-header-main input{
+    width: 299px;
+padding: 10px;
+outline: none;
+box-shadow: 0px 2px 2px aliceblue;
+border: 2px solid white;
+}
+
+.books-header-main h2{
+    color: #e6a3a3;
+text-shadow: 1px 1px 0px aliceblue;
+}
+
+.books-header-main .image{
+    position: relative;
+    clip-path: polygon(0 1%, 75% 0%, 92% 51%, 75% 100%, 0 99%, 0% 50%);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.books-header-main .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%
+}
+
+.books-outline{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10;
+}
+
+.books-header-main .image .quote{
+    width: 55%;
+    letter-spacing: 9px;
+}
+
+.books-header-main .content img{
+    width: 300px;
+margin-top: 69px
+}
+
+.single-book{
+    background: #d98e8e;
+display: flex;
+flex-direction: column;
+padding: 4px;
+border-radius: 4px;
+box-shadow: 0px 2px 2px aliceblue;
+}
+
+
+.single-book img{
+    height: 80%;
+    /* object-fit: cover; */
+}
+
+.name{
+    width: 91%;
+    background: brown;
+    margin-top: 13px;
+    border-radius: 7px;
+}
+
+.single-book{
+    cursor: pointer;
+    transition: scale .5s ease-in-out;
+}
+
+.single-book:hover{
+    scale: .9;
+}
+
+
+@media screen and (max-width:700px){
+    .books-header-main{
+        flex-direction: column;
+        
+    }
+}
+
+
+.model-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 30;
+}
+
+
+.book-card{
+    box-shadow: 0px 2px 2px aliceblue;
+}
+
+
+.model-Overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    /* z-index: 30; */
+}
+
+.book-card {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.book-card img{
+    height: 80%;
+}
+
+.book-content-model{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.book-content-model button{
+    width: 80%;
+}
+
+
+.close{
+    position: absolute;
+right: 10px;
+top: 10px;
+font-size: 30px;
+cursor: pointer;
+}
+
+.model-flex img{
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+
+@media screen and (max-width:800px){
+    .model-flex{
+        flex-direction: column;
+    }
+.book-card{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+}
